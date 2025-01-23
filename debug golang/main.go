@@ -46,7 +46,7 @@ func main() {
 	wg.Add(1)
 	go consumer(workChan, wg)
 
-	for i := 0; i < 100; i++ {
+	for i := 0; i < 5; i++ {
 
 		value, _ := rand.Int(rand.Reader, big.NewInt(1000))
 
