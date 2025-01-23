@@ -1,1 +1,3 @@
-for learing golang
+# for learing golang programing
+
+- debug golang form facebook.
